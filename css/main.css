@@ -1,0 +1,106 @@
+.hero{
+    /* The image used */
+    background-image: url("../img/bg2.jpg");
+
+    /* Full height */
+    height: 500px; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 55px;  
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .navbar a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+
+  .centered {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navig{
+    float: right;
+}
+
+.grid_4{
+    height: 400px;
+    padding-top: 20px;
+}
+
+.ft{
+    background-color: #e3e3e3;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    bottom: 0;
+}
+
+.ls{
+    margin-right: 10px;
+    width: 33%;
+}
+
+.navbar h1{
+    float: left;
+    display: block;
+    font-size: 25px;
+    width: 30%;
+    color: #ddd;
+    padding-top: 5px;
+    padding-left: 10px;
+    font-family: 'Bree Serif', serif;
+}
+
+.hero h1{
+    font-size: 50px;
+    width: 100%;
+    color: #ddd;
+    text-align: center;
+    padding-right: 10%;
+    padding-top: 10%;
+    font-family: 'Bree Serif', serif;
+    
+}
+
+.ic{
+    padding: 10px 10px;
+}
+
+.image{
+    width: 100%;
+    height: 50%;
+}
+
+h4{
+    font-family: 'Bree Serif', serif;
+}
+
+p{
+    font-family: 'Exo', sans-serif;
+}
+.prod{
+      list-style: none;
+  }
